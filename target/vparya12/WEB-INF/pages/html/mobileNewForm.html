@@ -1,0 +1,41 @@
+<form>
+<div class="error"></div>
+<div class="labelClass">
+<label>Mobile Number<span class="requiredastrick">*</span> :</label>
+<label>Network<span class="requiredastrick">*</span> :</label>
+<label>User Name<span class="requiredastrick">*</span> :</label>
+<label>Alt Number :</label>
+<label>Amount<span class="requiredastrick">*</span> :</label>
+<label>Validity<span class="requiredastrick">*</span> :</label>
+<label>Payment<span class="requiredastrick">*</span> :</label>
+</div>
+<div class="inputClass">
+	<input type="text" id="mobileNumber" onblur="validateMobileNumber('mobileNumber','mobileNumberImg',this)"/>
+	<select id="network" onblur="validateNetwork('network','networkImg',this)">
+		<option value="Aircel">Aircel</option>
+		<option value="Airtel" selected="selected">Airtel</option>
+		<option value="BSNL">BSNL</option>
+		<option value="Idea">Idea</option>
+		<option value="Jio">Jio</option>
+		<option value="MTNL">MTNL</option>
+		<option value="MTS">MTS</option>
+		<option value="Reliance">Reliance</option>
+		<option value="Tata Docomo">Tata Docomo</option>
+		<option value="Telenor">Telenor</option>
+		<option value="Vodafone">Vodafone</option>
+	</select>
+	<input type="text" id="userName"  onblur="validateUserName('userName','userNameImg',this)"/>
+	<input type="text" id="altNumber" onblur="validateAltNumber('altNumber','altNumberImg',this)" />
+	<input type="text" id="amount"  onblur="validateAmount('amount','amountImg',this)" />
+	<input type="text" id="validity"  onblur="validateValidity('validity','validityImg',this)"/>
+	<div style="display:inline-flex;">
+		<input type="radio" name="payment"  value="true"/>Yes
+		<input type="radio" name="payment" checked="checked"  value="false" />No
+	</div>
+</div>
+<div class="buttonClass">
+	<input type="button" value="Save" class="btn-primary" onclick="saveNewMobile();">
+	<input type="reset" value="Clear" class="btn-primary">
+	<input type="button" value="Close" class="btn-primary" onclick="closeOpenForm('mobileForm','newOverlay',this);">
+</div>
+</form>

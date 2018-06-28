@@ -1,0 +1,25 @@
+#mobileForm {
+	width: 510px;
+	text-align: center;
+	margin-left: 440px;
+	padding: 7px; background : #ccccaa;
+	display: block;
+	opacity: 1;
+	margin-top: 12%;
+	border-radius: 10px;
+	background: #ccccaa;
+}
+
+#mobileEditForm {
+	width: 510px;
+	text-align: center;
+	margin-left: 440px;
+	padding: 7px; 
+	background : #ccccaa;
+	display: block;
+	opacity: 1;
+	margin-top: 12%;
+	border-radius: 10px;
+	background: #ccccaa;
+}
+

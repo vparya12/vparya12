@@ -1,0 +1,252 @@
+bdy{
+	    background: linear-gradient(to bottom, #f7f76f96 0%, #c2ebf975 100%);
+}
+.dataBox{
+	display: inline-block !important;
+	max-height: 200px;
+	min-width:80%; 
+}
+.requiredastrick {
+	color: red;
+	padding-left: 3px;
+    font-size: 15px;
+}
+
+#container{
+	padding-top: 70px;
+}
+belowZero {
+	background: #cc000062;
+	color: #130fb5;
+}
+
+zero {
+	background: #fd9005;
+	color: #130fb5;
+}
+
+one {
+	background: #fd05ba;
+	color: #130fb5;
+}
+
+two {
+	background: #05d9fd;
+	color: #130fb5;
+}
+
+three {
+	background: #fdec05;
+	color: #130fb5;
+}
+
+four {
+	background: #fdec0560;
+	color: #130fb5;
+}
+
+five {
+	background: #b1b7c1;
+	color: #130fb5;
+}
+
+aboveFive {
+
+}
+
+.editColumn{
+	border: none !important;
+}
+.highlight {
+ background-color: Yellow;
+ color: Green;
+}
+.imgMobileButton{
+	border-radius: 15px; 
+}
+.imgMobileButton:hover{
+	opacity: 0.5 !important;
+	cursor: pointer;
+}
+.imgDthButton{
+	border-radius: 45px; 
+}
+.imgDthButton:hover{
+	opacity: 0.5 !important;
+	cursor: pointer;
+}
+.labelClass{
+	display: grid;
+    text-align: end;
+    width: 50%;
+    padding-right:20px;
+    float: left;
+}
+.labelClass label{
+	margin-top: 2.1px;
+}
+.inputClass{
+	display: inline-block;
+    text-align: left;
+    width: 50%;
+    padding-left: 2px;
+}
+.inputClass input{
+	margin-top: 3px;
+	margin-bottom: 2px;
+}
+.buttonClass{
+	padding-top: 2px;
+	display: inline-flex;
+	    width: 100%;
+    margin-left: 33%;
+}
+
+.buttonClass input{
+	padding: 5px ;
+	margin: 5px 0px 0px 5px;
+	
+	}
+
+#loginOverlay{
+	display:none;
+}
+#companyName{
+	border: 1px solid blue;
+	width: 20%;	
+}
+#loggedUser{
+	margin-top: 3.8%;
+	padding-right:1%;
+}
+.success{
+	width:auto;
+    color: #089c29f0;
+    background: #cea6e657;
+}
+.error{
+	color: red;
+}
+#newOverlay{
+	position: fixed; /* Sit on top of the page content */
+	display: none; /* Hidden by default */
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(144, 144, 146, 0.74);
+	/* Black background with opacity */
+	z-index: 12;
+	/* Specify a stack order in case you're using a different order for other elements */
+	cursor: pointer; /* Add a pointer on hover */
+}
+
+#editOverlay{
+	position: fixed; /* Sit on top of the page content */
+	display: none; /* Hidden by default */
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(144, 144, 146, 0.74);
+	/* Black background with opacity */
+	z-index: 12;
+	/* Specify a stack order in case you're using a different order for other elements */
+	cursor: pointer; /* Add a pointer on hover */
+}
+#loginOverlay{
+	position: fixed; /* Sit on top of the page content */
+	display: block; /* Hidden by default */
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(144, 144, 146, 0.74);
+	/* Black background with opacity */
+	z-index: 12;
+	/* Specify a stack order in case you're using a different order for other elements */
+	cursor: pointer; /* Add a pointer on hover */
+}
+
+#signupOverlay{
+	position: fixed; /* Sit on top of the page content */
+	display: block; /* Hidden by default */
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(144, 144, 146, 0.74);
+	/* Black background with opacity */
+	z-index: 12;
+	/* Specify a stack order in case you're using a different order for other elements */
+	cursor: pointer; /* Add a pointer on hover */
+}
+
+#loginForm  {
+	width: 400px;
+	//text-align: center;
+	margin-left: 440px;
+	padding: 7px; background : #ccccaa;
+	display: block;
+	opacity: 1;
+	margin-top: 12%;
+	border-radius: 10px;
+	background: #ccccaa;
+}
+
+#signupForm  {
+	width: 410px;
+	//text-align: center;
+	margin-left: 440px;
+	padding: 7px; background : #ccccaa;
+	display: block;
+	opacity: 1;
+	margin-top: 12%;
+	border-radius: 10px;
+	background: #ccccaa;
+}
+
+#dataBox {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	max-width:80%;
+	justify-content: center;
+}
+.overlayForm {
+	opacity: 1;
+	color: #000000;
+	font-size: 20px;
+}
+
+input[type='text'], input[type='password'] {
+    background-image: url(/vparya12/resources/img/checked.gif);
+    background-position: 145px 3px;
+    background-repeat: no-repeat;
+    width: 65%;
+    height: 25px;
+}
+input[type='radio']{
+	margin-left: 25px;
+}
+
+select{
+	width: 65%; height: 25px;
+}
+
+h3{
+	margin-top: 5px !important;
+}
+hr{
+	margin-top: 0px !important;
+	margin-bottom: 10px !important;
+	border-top: 5px solid #bac839e6 !important;
+}

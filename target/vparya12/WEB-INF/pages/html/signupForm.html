@@ -1,0 +1,30 @@
+<form>
+<div class="error"></div>
+<div class="labelClass">
+<label>User Name<span class="requiredastrick">*</span> :</label>
+<label>Mobile Number<span class="requiredastrick">*</span> :</label>
+<label>Email Id<span class="requiredastrick">*</span> :</label>
+<label>Password<span class="requiredastrick">*</span> :</label>
+<label>Confirm Password<span class="requiredastrick">*</span> :</label>
+<label>Gender<span class="requiredastrick">*</span> :</label>
+</div>
+<div class="inputClass">
+	<input type="text" id="signupUserName" />
+		<img src="" id="signupUserNameImg">
+	<input type="text" id="signupMobileNumber" />
+		<img src="" id="mobileNumberImg">
+	<input type="text" id="signupEmailId"  />
+		<img src="" id="signupEmailImg">
+	<input type="text" id="signupPassword"  />
+		<img src="" id="signupPasswordImg">
+	<input type="text" id="signupConfirmPassword" />
+		<img src="" id="signupConfirmImg"><br>
+	<input type="radio" name="gender" value="Female"/>Female
+	<input type="radio" name="gender" checked="checked" value="Male" />Male
+</div>
+<div class="buttonClass">
+	<input type="button" value="Save" class="btn-primary" onclick="signupUser();">
+	<input type="reset" value="Clear" class="btn-primary">
+	<input type="button" value="Close" class="btn-primary" onclick="closeOpenForm('signupForm','signupOverlay',this);">
+</div>
+</form>

@@ -1,0 +1,21 @@
+
+#header{
+	background: linear-gradient(to bottom, #000000 45% , #ffffff 80%);
+	font-size: 30px;
+}
+#mainContainer{
+	margin-top: 50px;
+	margin-left: 6%;
+	margin-right: 6%;
+}
+#footer{
+	background: #cccccc;
+}
+
+tble{
+	background: linear-gradient(to bottom, red,green);
+    color: #0a16b5bd;
+}
+tble tr{
+	color:#000000;
+}
